@@ -95,13 +95,17 @@ body {
 
 
 .project {
-    height: 400px;
+    height: 40vh;
     width: 30vw;
     background: rebeccapurple;
 }
 
 .project-grid {
+    margin: 0px auto 6rem;
     display: grid;
+    /* max-width: calc(1280px + 2rem); */
+    padding: 0px 1rem;
+    width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
 }
